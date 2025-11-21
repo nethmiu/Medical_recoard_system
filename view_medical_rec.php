@@ -658,7 +658,7 @@ if ($role == "patient" || $role == "doctor") {
                         Delete Record
                     </a>
                 <?php endif; ?>
-                <a href="dashboard_patient.php?record_id=<?= $record_id ?>" class="btn btn-secondary" role="button" aria-label="Back to Dashboard">
+                <a href="view_records.php?record_id=<?= $record_id ?>" class="btn btn-secondary" role="button" aria-label="Back to Dashboard">
                     <i class="fas fa-times"></i>
                     Close
                 </a>
